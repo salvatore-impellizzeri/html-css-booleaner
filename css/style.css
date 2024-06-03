@@ -13,6 +13,24 @@
 #logo{
     width: 300px;
     position: absolute;
-    bottom: 10px;
-    left: 5px;
+    bottom: 15px;
+    left: 10px;
+}
+
+h1{
+    margin-left: 10px;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+h2, p{
+    margin-left: 10px;
+    color: rgba(128, 128, 128, 0.5);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#autore{
+    margin-left: 10px;
+    color: cyan;
 }
