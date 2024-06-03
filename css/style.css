@@ -56,8 +56,8 @@ main{
     margin-left: 0;
 }
 
-#foto1, #foto2{
-    height: 500px;
+.tim{
+    height: 700px;
 }
 
 /* Articolo */
@@ -81,8 +81,9 @@ article span{
 /* Tabella */
 
 table{
-    width: 90vw;
+    width: 100%;
     margin-bottom: 40px;
+    border-collapse: collapse;
 }
 
 th{
@@ -100,3 +101,32 @@ th{
     background-color: rgb(155, 255, 255);
 }
 
+/* Footer */
+
+footer h2{
+    color:rgba(128, 128, 128, 0.747);
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+#img-monitor{
+    background-image: url("../img/monitor.jpg");
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#img-graph{
+    background-image: url("../img/graph.jpg");
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
