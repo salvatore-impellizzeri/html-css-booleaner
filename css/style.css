@@ -1,10 +1,13 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 #background-header{
+    display: block;
+    margin: 0;
     height: 170px;
-    background-image: url(../img/pattern.png);
+    background-image: url("../img/pattern.png");
     background: cover;
     background-color: rgb(0, 162, 255);
     position: relative;
@@ -23,14 +26,28 @@ h1{
     margin-bottom: 0;
 }
 
-h2, p{
+h2, #data{
     margin-left: 10px;
     color: rgba(128, 128, 128, 0.5);
     margin-top: 0;
     margin-bottom: 0;
 }
 
+#data{
+    margin-bottom: 20px;
+}
+
 #autore{
     margin-left: 10px;
     color: cyan;
+    margin-left: 0;
 }
+
+#foto1, #foto2{
+    height: 500px;
+}
+
+section{
+    margin-left: 10px;
+}
+
